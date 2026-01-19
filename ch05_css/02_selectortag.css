@@ -1,0 +1,41 @@
+/*기본선택자*/
+*{
+  font-weight:bold ;
+  color:darkorange;
+}
+
+*{
+  color: pink;
+}
+
+/*태그선택자*/
+p{
+  color: olivedrab;
+}
+
+.blue{
+  color: lightblue;
+}
+/*클래스 선택자는 구체적일수 있고 여러번사용가능 */
+p.blue{
+  color: lightblue;
+}
+.blue.dark{
+  color: blue;
+}
+
+p.blue.dark{
+  color: darkblue;
+}
+/* id 선택자 - #우물정자로 표기한다
+class보다 우선순위가 높다 id는 페이지 상에서 요소마다 고유해야함*/
+#red{
+  color: red;
+
+
+}
+
+/* 우선순위 
+ID(#) > 클래스(.) > 태그 > 전체(*)
+4 - 3 - 2 - 1
+*/

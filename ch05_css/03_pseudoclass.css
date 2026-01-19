@@ -1,0 +1,58 @@
+.outer li{
+  color: olivedrab;
+}
+/*자식 결합자 바로밑에애들한테만적용(육류...과일)*/
+.outer> li {
+  color: dodgerblue;
+}
+/* 아들 -손자 -증손자 */
+
+/*.outer>li li{
+  text-decoration: underline;
+}*/
+
+.outer>li > li{
+  text-decoration: underline;
+}
+
+/* 9-11 라인의 결과가 14 -16 라인의 결과와 다른점이 발견되었다. .outer list vs .outer >li li 가 더 구체적이다
+
+
+*/
+
+/*뒤따르는 모든 동생들 결합자 */
+.starter~li{
+  font-style: italic;
+}
+/*뒤따르는 바로다음 동생 결합자 */
+.starter +li{
+  font-weight: bold;
+}
+
+/*첫번째 마지막 요소 가상클래스 */
+ol li:first-child, ol li:last-child
+{
+  color: yellow;
+}
+/*~가 아닌 요소 가상클래스 */
+/*이들을해석가능한가 가상요소가 중첩,.,,,,*/
+.outer > li:not(:last-child){
+  text-decoration: line-through;
+}
+
+ul:not(.outer) li{
+  font-weight: bold;
+}
+
+/* ~번 째 요소 가상클래스 특정값지정*/
+ol li:nth-child(4){
+  font-weight: bold;
+  color: deeppink;
+}
+
+/* */
+li:hover{
+  font-weight: bold;
+  color: peru;
+}
+
