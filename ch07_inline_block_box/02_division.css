@@ -1,0 +1,7 @@
+div{
+  background-color: aqua;
+  text-align: center;
+  height: 100vh;
+  line-height: 100vh;
+  /* height 와 line height를 동일한 값을 주게되면 텍스트의 한줄한줄 일경우 중간에 위치할수있다*/
+}

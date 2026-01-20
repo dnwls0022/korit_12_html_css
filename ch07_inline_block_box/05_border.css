@@ -1,0 +1,14 @@
+/*li:not(:last-child){
+  text-decoration: underline;
+}*/
+/*li:not(:first-child){
+  text-decoration: overline;
+}*/
+
+/* li요소는 블록
+그래서 ul리스트 1이아니라 그 줄 전체에 밑줄을 긋기
+*/
+/*solid?*/
+li:not(:last-child){
+  border-top: 1px solid black ;
+}

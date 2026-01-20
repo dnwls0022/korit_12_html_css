@@ -1,0 +1,21 @@
+html{
+  font-size: 12px;
+}
+
+p{
+  text-align: justify;
+  /*
+
+  */
+  line-height: 1.5em;
+  word-spacing: 1.5em;
+  /*
+
+  */
+  text-indent: 1.5em;
+  /*p태그가 시작될때의 기준으로 원래 문단을 잡기때문에, 문단을 시작할때 들여쓰기를 지정 
+  */
+  text-indent: -1.5em
+  /* margin이나 padding개념을 합치게되면 문단 시작만 툭 튀어나오게끔보여준다*/
+
+}

@@ -1,0 +1,20 @@
+ul>li{
+  /*마진은 공백 */
+  margin-right: 2em;
+  /*padding-right: 2em;*/
+  display: inline-block;
+  /*display: inline-block; 화면에서 옆으로 늘어져있는모습 */
+  font-size: smaller;
+  background-color: aqua;
+  width: 65px;
+}
+
+ol {
+  font-style: oblique;
+  font-size: xx-large;
+  color: wheat;
+  margin-right: 2rem;
+  padding: 5%;
+
+}
+

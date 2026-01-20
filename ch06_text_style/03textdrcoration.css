@@ -1,0 +1,14 @@
+p{
+  text-decoration: blue 
+  overline wavy 5px;
+  /*
+  각 속성값의 순서가 바뀌는 것은 상관없다 
+  blue 
+  line-through wavy 5px;
+  /*
+  */
+  text-transform: capitalize;
+  text-transform: none;
+  text-transform: uppercase;
+  text-transform: lowercase;
+}

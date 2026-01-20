@@ -1,0 +1,29 @@
+/*body{
+  text-align: center;
+}*/
+
+
+div{
+  /* display : inline block;*/
+  /* inline block으로 display를 설정하게 되는 경우 width/height의 지정은 가능하나 margin 에서 auto가 먹히지않는다. 가로세로 지정은 block의 성격이지만 margin auto가 안먹히는것은 inline의 성격*/
+
+  background-color: chocolate;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-top: 8px solid black;
+  border-bottom: 0.5em dashed seashell;
+  border-right: 1.5vw dotted rebeccapurple;
+  border-left:0.3vh solid darkolivegreen ;
+}
+/*
+왜 위와같이 작동되냐.....인라인 블록 요소가 지금 박스모습으로 보이긴 하지만 기본적으로 !!텍스트의 흐름!!을 따라가기때문에 부모요소에서 text-aline
+속성을 지정해줘야지 block요소처럼 margin으로 조정이되지않음
+
+
+display: block의 경우 너비와 높이를 지정할수있지만 기본적으로 전체row를 잡아먹는 구조... 그렇기때문에 margin을 통해서 통제가 가능하지만 부모요소에서 text로 조절할수없다.
+*/
+
+p{
+  text-align: end;
+}
